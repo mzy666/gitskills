@@ -8,7 +8,7 @@ COPY ./nginx.conf /etc/nginx/nginx.conf
 WORKDIR /usr/share/nginx/html
  
 # 将本地的网站内容复制到容器中的指定位置
-COPY ./website/* .
+COPY ./openinstall/* .
  
 # 开放80端口以接收HTTP流量
 EXPOSE 80
