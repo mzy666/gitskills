@@ -6,4 +6,4 @@ EXPOSE 80
 
 WORKDIR /opt/openinstall
 
-CMD ["nginx"]
+CMD ["nginx", "-g", "daemon off;"]
