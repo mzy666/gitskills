@@ -1,5 +1,5 @@
 # 使用腾讯云镜像仓库的基础镜像
-FROM tlinux
+FROM nginx
  
 # 安装nginx
 RUN yum makecache fast && yum install -y nginx
